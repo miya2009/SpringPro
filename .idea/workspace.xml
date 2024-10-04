@@ -9,12 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6634dba2-9dc0-405e-9880-1ec6a8155cf3" name="변경" comment="4번째 커밋">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6634dba2-9dc0-405e-9880-1ec6a8155cf3" name="변경" comment="환경설정 완료">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/EventSampleDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/ISampleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/SampleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/SampleDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/SampleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springpro/sample/SampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/test-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springpro/sample/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springpro/sample/SampleTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +61,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/project/spring_2024/SpringPro/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +72,92 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\spring_2024\SpringPro\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SampleTest2.testConnection">
+    <configuration name="SampleTest2.beanTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springpro.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springpro.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springpro.sample.SampleTest2" />
+      <option name="METHOD_NAME" value="beanTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest2.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springpro.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springpro.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springpro.sample.SampleTest2" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest3.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springpro.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springpro.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springpro.sample.SampleTest3" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest4.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springpro.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springpro.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springpro.sample.SampleTest4" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest.beanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springpro.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springpro.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springpro.sample.SampleTest" />
+      <option name="METHOD_NAME" value="beanTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -147,6 +247,23 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SampleTest.beanTest" />
+      <item itemvalue="JUnit.SampleTest2.beanTest2" />
+      <item itemvalue="JUnit.SampleTest2.testConnection" />
+      <item itemvalue="JUnit.SampleTest3.testService" />
+      <item itemvalue="JUnit.SampleTest4.testService" />
+      <item itemvalue="Tomcat 서버.Tomcat 10.1.15" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SampleTest2.testConnection" />
+        <item itemvalue="JUnit.SampleTest2.beanTest2" />
+        <item itemvalue="JUnit.SampleTest4.testService" />
+        <item itemvalue="JUnit.SampleTest3.testService" />
+        <item itemvalue="JUnit.SampleTest.beanTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -158,7 +275,7 @@
       <updated>1727508487434</updated>
       <workItem from="1727508488419" duration="2247000" />
       <workItem from="1727653598751" duration="35000" />
-      <workItem from="1728001282156" duration="3202000" />
+      <workItem from="1728001282156" duration="15147000" />
     </task>
     <task id="LOCAL-00001" summary="2번째 커밋">
       <created>1727509234006</created>
@@ -188,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727509666822</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="환경설정 완료">
+      <created>1728005541682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728005541682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +321,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2번째 커밋" />
     <MESSAGE value="4번째 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="4번째 커밋" />
+    <MESSAGE value="환경설정 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="환경설정 완료" />
   </component>
 </project>
